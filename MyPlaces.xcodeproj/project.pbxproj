@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341A8500266948DC00853C97 /* CustoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A84FF266948DC00853C97 /* CustoTableViewCell.swift */; };
 		346BB88B2668D9B400849FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BB88A2668D9B400849FC3 /* AppDelegate.swift */; };
 		346BB88D2668D9B400849FC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BB88C2668D9B400849FC3 /* SceneDelegate.swift */; };
 		346BB8922668D9B400849FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BB8902668D9B400849FC3 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341A84FF266948DC00853C97 /* CustoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustoTableViewCell.swift; sourceTree = "<group>"; };
 		346BB8872668D9B400849FC3 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346BB88A2668D9B400849FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		346BB88C2668D9B400849FC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				346BB88A2668D9B400849FC3 /* AppDelegate.swift */,
 				346BB88C2668D9B400849FC3 /* SceneDelegate.swift */,
 				346BB89E2668D9E800849FC3 /* MainViewController.swift */,
+				341A84FF266948DC00853C97 /* CustoTableViewCell.swift */,
 				346BB8902668D9B400849FC3 /* Main.storyboard */,
 				346BB8932668D9B600849FC3 /* Assets.xcassets */,
 				346BB8952668D9B600849FC3 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341A8500266948DC00853C97 /* CustoTableViewCell.swift in Sources */,
 				346BB89F2668D9E800849FC3 /* MainViewController.swift in Sources */,
 				346BB88B2668D9B400849FC3 /* AppDelegate.swift in Sources */,
 				346BB88D2668D9B400849FC3 /* SceneDelegate.swift in Sources */,
