@@ -8,9 +8,9 @@
 import UIKit
 
 class MainViewController: UITableViewController {
-
-    let resNames = ["Bonsai","Burger Heroes","Kitchen","Love&Life","Morris Pub","Sherlock Holmes","Speak Easy","X.O"]
         
+    let place = Place.getPlaces()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,14 +25,14 @@ class MainViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return resNames.count
+        return place.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustoTableViewCell
         
-        cell.nameLabel?.text = resNames[indexPath.row]
-        cell.imageOfPlace?.image = UIImage(named: resNames[indexPath.row])
+        cell.nameLabel?.text = place[indexPath.row].name
+        cell.imageOfPlace?.image    = UIImage(named: place[indexPath.row].image)
         cell.imageOfPlace?.layer.cornerRadius = cell.frame.height / 2
         cell.imageOfPlace?.clipsToBounds = true
         
@@ -43,5 +43,6 @@ class MainViewController: UITableViewController {
         return 85
     }
     
+    @IBAction func cancelAction(_ segue: UIStoryboardSegue) {}
 
 }

@@ -15,6 +15,8 @@
 		346BB8972668D9B600849FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BB8952668D9B600849FC3 /* LaunchScreen.storyboard */; };
 		346BB89F2668D9E800849FC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BB89E2668D9E800849FC3 /* MainViewController.swift */; };
 		346BB8A32668E92E00849FC3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 346BB8A22668E92E00849FC3 /* .gitignore */; };
+		34C9E5FB266A70C9001220E0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9E5FA266A70C9001220E0 /* Place.swift */; };
+		34C9E5FD266A85CD001220E0 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9E5FC266A85CD001220E0 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		346BB8982668D9B600849FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		346BB89E2668D9E800849FC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		346BB8A22668E92E00849FC3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		34C9E5FA266A70C9001220E0 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		34C9E5FC266A85CD001220E0 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,9 @@
 				346BB8A22668E92E00849FC3 /* .gitignore */,
 				346BB88A2668D9B400849FC3 /* AppDelegate.swift */,
 				346BB88C2668D9B400849FC3 /* SceneDelegate.swift */,
+				34C9E5FC266A85CD001220E0 /* NewPlaceViewController.swift */,
 				346BB89E2668D9E800849FC3 /* MainViewController.swift */,
+				34C9E5FA266A70C9001220E0 /* Place.swift */,
 				341A84FF266948DC00853C97 /* CustoTableViewCell.swift */,
 				346BB8902668D9B400849FC3 /* Main.storyboard */,
 				346BB8932668D9B600849FC3 /* Assets.xcassets */,
@@ -145,9 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				341A8500266948DC00853C97 /* CustoTableViewCell.swift in Sources */,
+				34C9E5FD266A85CD001220E0 /* NewPlaceViewController.swift in Sources */,
 				346BB89F2668D9E800849FC3 /* MainViewController.swift in Sources */,
 				346BB88B2668D9B400849FC3 /* AppDelegate.swift in Sources */,
 				346BB88D2668D9B400849FC3 /* SceneDelegate.swift in Sources */,
+				34C9E5FB266A70C9001220E0 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
